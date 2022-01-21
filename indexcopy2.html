@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="src/p5.min.js"></script>
+    <script src="src/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>React App</title>
+</head>
+
+<body>
+    data-spy="scroll" data-target="#navbarNav" data-offset="50">
+    <!--Menu Bar -->
+    <div class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a href="indexcopy.html" class="navbar-brand">Yoga</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nv ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="indexcopy2.html" class="nav-link smoothScroll">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link smoothScroll">Yoga Posture Detection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="healtharena.html" class="nav-link smoothScroll">Health arena</a>
+                    </li>
+            </div>
+        </div>
+    </div>
+    <!--Section 1 -->
+    <section class="hero d-flex flex -column justify-content-center align-items-center" id="home">
+        <div class="bg-overlay">
+            <video autoplay muted loop id="homevideo">
+                <source src="homevid.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!--Section 2 -->
+    <section class="ftco-section bg-light" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-strech">
+                    <div class="offer-deal text-center">
+                        <div class="img" style="background-image: url('./img/pic1.jpg');">
+
+                        </div>
+                        <div class="text mt-4">
+                            <h3 class="mb-4">Yoga Day</h3>
+                            <p class="mb-5">
+                                The International Day of Yoga has been celebrated annually on 21st June since 2015, following its inception in the United Nations General Assembly in 2014. Yoga is a physical, mental and spiritual practice which originated in India.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-strech ">
+                    <div class="offer-deal text-center ">
+                        <div class="img " style="background-image: url( './img/pic2.jpg'); ">
+
+                        </div>
+                        <div class="text mt-4 ">
+                            <h3 class="mb-4 ">Yoga Around the World</h3>
+                            <p class="mb-5 ">
+                                A Yoga holiday can help you unwind from the stresses of everyday life, stay active while on vacation and learn more about Yoga or deepen your practice. Some of the best Yoga destinations in the world include - Sri Lanka, India, Cambodia, Indonesia, Mexico,
+                                Vietnam, Malaysia and Italy.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-strech ">
+                    <div class="offer-deal text-center ">
+                        <div class="img " style="background-image: url( './img/pic3.jpg'); ">
+
+                        </div>
+                        <div class="text mt-4 ">
+                            <h3 class="mb-4 ">Yoga Centres</h3>
+                            <p class="mb-5 ">
+                                The Yoga Center is focused on the principles of body alignment, proper breathing, and guiding each student to a deeper understanding of yoga poses.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-strech ">
+                    <div class="offer-deal text-center ">
+                        <div class="img " style="background-image: url( './img/pic4.jpg'); ">
+
+                        </div>
+                        <div class="text mt-4 ">
+                            <h3 class="mb-4 ">Yogis</h3>
+                            <p class="mb-5 ">
+                                A yogi is someone who practices yoga, whether it’s you, or your instructor at the Yoga Center Retreat. However, thanks to some yogis in particular, yoga became what it is today. Few of the great yogis include TIRUMALAI KRISHNAMACHARYA YOGI, SWAMI SIVANANDA,
+                                K PATTABHI JOIS, B K S IYENGAR.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section 3-->
+    <section class="out-team-area section-padding-80-50 " id="team ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <div class="section-heading text-center wow fadeInUp " data-aos="fade-up " data-aos-delay="200 ">
+                    </div>
+                    <h2>The Team (Team Number - 45)</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 4-->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-3 d-flex align-items-strech ">
+                <div class="offer-deal text-center ">
+                    <div class="img " style="background-image: url( './img/rashmikaK2.jpg'); ">
+                    </div>
+                    <div class="text mt-4 ">
+                        <h3 class="mb-4 ">Rashmika Nattam</h3>
+                        <p class="mb-5 " style="color: blue; ">
+                            Roll Number: 19131A05K2
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-strech ">
+                <div class="offer-deal text-center ">
+                    <div class="img " style="background-image: url( './img/swaroopaF5.jpg'); ">
+                    </div>
+                    <div class="text mt-4 ">
+                        <h3 class="mb-4 ">Swaroopa</h3>
+                        <p class="mb-5 " style="color: blue; ">
+                            Roll Number: 19131A05F5
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-strech ">
+                <div class="offer-deal text-center ">
+                    <div class="img " style="background-image: url( './img/kavya52.jpg'); ">
+                    </div>
+                    <div class="text mt-4 ">
+                        <h3 class="mb-4 ">Kavyasree</h3>
+                        <p class="mb-5 " style="color: blue; ">
+                            Roll Number: 19131A0552
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-strech ">
+                <div class="offer-deal text-center ">
+                    <div class="img " style="background-image: url( './img/hiteshK0.jpg'); ">
+                    </div>
+                    <div class="text mt-4 ">
+                        <h3 class="mb-4 ">Hitesh</h3>
+                        <p class="mb-5 " style="color: blue; ">
+                            Roll Number: 19131A05K0
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js "></script>
+    <script src="script.js "></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
